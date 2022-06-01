@@ -22,6 +22,7 @@ const categorySchema = {
     jobs: [jobSchema],
 }
 
+
 const catergory = mongoose.model('category', categorySchema);
 
 app.use(bodyParser.urlencoded({ extended : true }))
